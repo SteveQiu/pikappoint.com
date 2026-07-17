@@ -1,0 +1,9 @@
+{
+  "name": "pikappoint.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static marketing landing page for PikAppoint (served from docs/ via GitHub Pages)",
+  "scripts": {
+    "start": "npx --yes http-server docs -p 8080 -c-1"
+  }
+}
