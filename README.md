@@ -9,13 +9,13 @@ Static marketing landing page for **PikAppoint**, served via GitHub Pages from t
 
 ## Local preview
 
-No build or server code needed — it's a static site. Preview with either:
+No build step — it's a static site. Serve the `docs/` folder with:
 
 ```sh
-npx serve docs
-# or
-python -m http.server -d docs 8080
+npm start
 ```
+
+This runs `npx http-server docs -p 8080` → open http://127.0.0.1:8080.
 
 ## Deployment
 
